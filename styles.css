@@ -45,3 +45,28 @@ h2{
 #time-left, #score{
     color: rgb(58, 7, 7);
 }
+
+@media only screen and (max-width: 360px) {
+    .square{
+        height: 80px;
+        width: 80px;
+    }
+
+    .grid{
+        width: 252px;
+        height: 252px;
+        left: 5%;
+        bottom: -10%;
+    }
+
+    body{
+        width: 100vh;
+        height: 932px;
+    }
+
+    h2{
+        left: 0%;
+        top: 0%;
+        font-size: 1.5rem;
+    }
+}
