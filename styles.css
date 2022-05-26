@@ -46,7 +46,7 @@ h2{
     color: rgb(58, 7, 7);
 }
 
-@media only screen and (min-width: 360px){
+@media only screen and (max-width: 370px){
     body{
         position: absolute;
         top: 0;
@@ -66,80 +66,25 @@ h2{
         
     }
 
-        
-}
-
-@media only screen and (min-width: 576px) {
     .square{
-        height: 80px;
-        width: 80px;
+        height: 40px;
+        width: 40px;
+        border: 2px solid rgb(0, 80, 117);
+        
     }
-
-    .grid{
-        width: 252px;
-        height: 252px;
-        left: 5%;
-        bottom: -10%;
-    }
-
-    body{
-        width: 100vh;
-        height: 932px;
-    }
-
-    h2{
-        left: 0%;
-        top: 0%;
-        font-size: 1.5rem;
-    }
-
-    @media only screen and (min-width: 992px){
-        .grid{
-            width: 612px;
-            height: 612px;
-            display: flex;
-            flex-wrap: wrap;
-            position: relative;
-            left: 65%;
-            bottom: 20%;
-            background-color: rgb(0, 0, 0);
-        }
-        
-        .square{
-            height: 200px;
-            width: 200px;
-            border: 2px solid rgb(156, 156, 156);
-            
-        }
-        
-        .mole{
-            background: rgb(255,166,0);
-            background: linear-gradient(180deg, rgba(255,166,0,1) 5%, rgba(0,0,0,1) 100%);
-        }
-        
-        body{
-            width: 100vh;
-            height: 1152px;
-        
-            background: rgb(131,58,180);
-            background: -moz-linear-gradient(183deg, rgba(131,58,180,1) 0%, rgba(45,53,140,1) 22%, rgba(30,81,93,1) 48%, rgba(0,0,0,1) 100%);
-            background: -webkit-linear-gradient(183deg, rgba(131,58,180,1) 0%, rgba(45,53,140,1) 22%, rgba(30,81,93,1) 48%, rgba(0,0,0,1) 100%);
-            background: linear-gradient(183deg, rgba(131,58,180,1) 0%, rgba(45,53,140,1) 22%, rgba(30,81,93,1) 48%, rgba(0,0,0,1) 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#000000",GradientType=1);;
-        }
-        
+    
         h2{
-            position: relative;
-            left: 25%;
-            top: 25%;
-            font-weight: 900;
-            font-size: 2.5rem;
-            color: white;
-            
-        }
+        position: relative;
+        left: auto;
+        top: auto;
+        font-weight: 900;
+        font-size: 1.2rem;
+        color: white;
         
-        #time-left, #score{
-            color: rgb(58, 7, 7);
-        }
     }
+
+        
 }
+
+
+    
